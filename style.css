@@ -1,0 +1,24 @@
+.naive {
+    background-color: transparent;
+}
+.image {
+    padding-left: 2.5vw;
+}
+.navstuff1 {
+    padding-left: 52vw ;
+    padding-top: 2vw;
+    padding-bottom: 2vw; 
+    font-size: 1vw;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    color: #141414;
+}
+.navstuff {
+    padding-left: 2vw ;
+    padding-top: 2vw;
+    padding-bottom: 2vw; 
+    font-size: 1vw;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    color: #141414;
+}
