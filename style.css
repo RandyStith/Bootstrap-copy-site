@@ -42,7 +42,6 @@
   
   /* Position the navbar container inside the image */
   .container {
-    position: sticky;
     top: 0;
 
     margin: 20px;
@@ -66,8 +65,43 @@
     text-align: center;
     font-family: "Montserrat";
     font-size: 3vw;
+    color: #141414;
  }
+ .aboutus3 {
+  text-align: left;
+  font-family: "Nunito Sans";
+  font-weight: 500;
+  font-size: 3vw;
+  color: #141414;
+  padding-left: 7vw;
+}
  .aboutus1 {
     text-align: center;
     font-family: "Montserrat";
+    color: #787878;
  }
+ .aboutus2 {
+  text-align: left;
+  font-family: "Montserrat";
+  color: #787878;
+  padding-left: 7vw;
+  font-size: 1.25vw;
+}
+ .imag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .button1 {
+  background-color: #10c9c3; 
+  color: white; 
+  border: 2px solid #10C9C3;
+  margin-left: 7vw;
+  padding: 1vw 3.5vw 1vw 3.5vw;
+  font-family: 'Montserrat';
+}
+
+.button1:hover {
+  background-color: #10c9c3b9;
+  color: white;
+}
