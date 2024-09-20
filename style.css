@@ -105,3 +105,39 @@
   background-color: #10c9c3b9;
   color: white;
 }
+
+.pbar {
+  text-align: left;
+  font-family: "Montserrat";
+  color: #787878;
+  padding-left: 7vw;
+  font-size: 1.25vw;
+  padding-top: 2vw;
+}
+.pbars {
+  margin-left: 7vw ;
+  background-color: #10C9C3;
+}
+.icoons {
+  padding-right: 5px;
+  padding-left: 3vw;
+  padding-top: 2vw;
+}
+.iconp {
+  text-align: right;
+}
+.gal {
+  width: 25%;
+
+  padding: 0;
+  margin: 0;
+}
+.gal:hover {
+  opacity: 0.8;
+}
+.gal1 {
+  opacity:0;
+}
+.gal1:hover {
+  opacity:1;
+}
