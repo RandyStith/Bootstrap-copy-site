@@ -119,25 +119,137 @@
   background-color: #10C9C3;
 }
 .icoons {
-  padding-right: 5px;
-  padding-left: 3vw;
-  padding-top: 2vw;
+  margin-left: 4vw;
+  padding-top: 2.5vw;
+  width: 45%;
+}
+.iconfoot {
+  padding-top:4vw;
+  padding-bottom: 5vw;
+  background-color: #10C9C3;
 }
 .iconp {
-  text-align: right;
+  color: white;
+  margin-left: 0;
+  margin-top: 2.5vw;
+  font-size: 1vw;
 }
-.gal {
-  width: 25%;
 
-  padding: 0;
-  margin: 0;
+.container1 {
+  position: relative;
+  width: 50%;
+
 }
-.gal:hover {
+
+.image1 {
+  display: block;
+  width:  213.5%;
+  height: auto;
+}
+.container:hover .image1 {
   opacity: 0.8;
 }
-.gal1 {
-  opacity:0;
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 213.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #141414;
+  
 }
-.gal1:hover {
-  opacity:1;
+
+.container1:hover .overlay1 {
+  opacity: 0.5;
+  
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.servimg {
+  padding-left: 45%;
+  padding-top: 6vw;
+  padding-bottom: 3vw;
+  width: 13vw;
+  
+}
+.servp {
+  text-align: center;
+  color: #141414;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.servimg1 {
+  padding-left: 45%;
+  padding-top: 5.8vw;
+  padding-bottom: 2vw;
+  width: 12.5vw;
+  
+}
+.servp2 {
+  text-align: center;
+  color: #787878;
+  font-family: "Montserrat";
+}
+.quotsec {
+  padding-top: 10vw;
+  background-color: #10C9C3;
+}
+.quote {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  scale: .8;
+}
+.name {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 1vw;
+  padding-bottom: 7vw;
+  text-align: center;
+}
+.spons {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.contactbut {
+  text-decoration: none;
+  color: white;
+}
+.contactbut:hover {
+  text-decoration: none;
+  color: white;
+}
+.pirolft {
+  color: #ffff;
+  font-size: 1.25vw;
+  font-family: "Nunito Sans";
+  padding-left: 6vw;
+}
+.footp {
+  background-color: #141414;
+  color: #a19f9f;
+  font-family: "Nunito Sans";
+  font-size: 0.8vw;
+  
+}
+.foot{
+  padding-top:5vw;
+  background-color: #141414;
+  color: #a19f9f;
+  text-align: left;
+  
+  padding-bottom: 5vw;
 }
